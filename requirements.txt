@@ -1,0 +1,20 @@
+# Zana - Python dependencies (versions intentionally unpinned until first
+# successful install; pin them afterwards with `pip freeze`).
+# Python 3.10-3.12 recommended (some audio/ML wheels lag behind the newest Python).
+
+# --- Phase 3: desktop GUI ---
+PySide6
+
+# Phase 4 (Ollama chat + SQLite history) uses only the standard library.
+
+# --- Phase 5: voice input / spoken responses ---
+numpy
+sounddevice
+faster-whisper
+piper-tts
+
+# --- Phase 6: wake phrase ---
+openwakeword
+
+# --- Development ---
+pytest

@@ -1,0 +1,24 @@
+# Voice models (downloaded, large) - see README for how to fetch them
+models/
+
+# Python / virtual environment / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# PyInstaller output and logs (rebuild with tools/build_exe.ps1)
+build/
+build_next/
+dist/
+dist_next/
+*.log
+
+# Local data and scratch files that must never be published
+*.db
+settings.json
+apps.json
+selftest*.json
+.env
+*.key
+assets/preview/
